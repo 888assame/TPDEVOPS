@@ -1,0 +1,25 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "build": "echo \"No build step defined\"",
+    "lint": "eslint .",
+    "deploy": "echo \"Deploy step not defined\""
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "myapp": "file:"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^28.0.0",
+    "nodemon": "^2.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
